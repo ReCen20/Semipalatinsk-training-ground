@@ -1,0 +1,16 @@
+@import "utils/fonts.scss";
+@import "utils/mixins.scss";
+@import "utils/vars.scss";
+
+body {
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+    font-family: $regularFont;
+}
+
+@import "modules/test.scss";
+@import "modules/test__header.scss";
+@import "modules/test__main.scss";
+@import "modules/test__footer.scss";

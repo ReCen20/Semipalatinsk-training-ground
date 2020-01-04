@@ -1,0 +1,34 @@
+
+/*body {
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    background-color: aquamarine;
+    .test-css {
+        color: white;
+        font-size: $h1DekstopFontSize;
+        //font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Comfortaa-light';
+        align-self: center;
+        flex-basis: 320px;
+        height: 640px;
+        background-color: blueviolet;
+        background-image: url('../img/591176ad4a7ae.jpg');
+    }
+}*/
+
+
+
+.test {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(109, 94, 245), rgb(148, 7, 117), rgb(0, 0, 0));
+}
+
+
+
+
+

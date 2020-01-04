@@ -1,0 +1,36 @@
+.test__main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    box-sizing: border-box;
+    .test__column-a {
+        padding: 20px;
+        box-sizing: content-box;
+        background-color: rgba(4, 2, 20, 0.3);
+        min-height: 400px;
+        border-radius: 20px;
+        flex-basis: 600px;
+        text-align: center;
+        color: white;
+        font-size: $h1PhoneFontSize;
+    }
+    .test__column-b {
+        padding: 20px;
+        box-sizing: content-box;
+        background-color: rgba(4, 2, 20, 0.3);
+        min-height: 400px;
+        border-radius: 20px;
+        flex-basis: 1200px;
+        color: white;
+        h2 {
+            font-size: $h1PhoneFontSize;
+        }
+        p {
+            font-size: 20px;
+        }
+        
+    }
+}

@@ -1,0 +1,31 @@
+.test__header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: baseline;
+    justify-content: flex-start;
+    background-color: rgba(4, 2, 20, 0.3);
+    .test__title {
+        min-height: 60px;
+        font-family: 'TitilliumWeb-Regular';
+        font-size: $h1DekstopFontSize;
+        color: white;
+        flex-basis: 300px;
+        text-align: center;
+    }
+    .test__nav {
+        min-height: 60px;
+        display: flex;
+        justify-content: flex-start;
+        .nav-link {
+            text-decoration: none;
+            color: white;
+            font-size: $h1PhoneFontSize;
+            flex-shrink: 0;
+            flex-basis: 100px;
+            text-align: center;
+        }
+    }
+}
