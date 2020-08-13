@@ -22,7 +22,7 @@
     "last 3 version"
   ],
   "devDependencies": {
-    "serialize-javascript": ">=2.1.1",
+    "serialize-javascript": ">=3.1.0",
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "autoprefixer": "^9.6.4",
